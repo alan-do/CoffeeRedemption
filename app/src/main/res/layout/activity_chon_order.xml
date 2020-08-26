@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:background="#F1970D"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textColor="#FFF"
+        android:layout_weight="0.7"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="menu"
+        android:gravity="center">
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:text="Lọc theo: "
+            android:textSize="15sp"/>
+        <Spinner
+            android:id="@+id/spinner_filter"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvProduct"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:scrollbars="vertical" />
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="0.75"
+       android:orientation="horizontal">
+       <Button
+           android:background="#F1970D"
+           android:textColor="#FFF"
+           android:id="@+id/btn_go_to_cart"
+           android:layout_weight="1"
+           android:text="Xem giỏ hàng"
+           android:layout_width="0dp"
+           android:layout_height="match_parent"/>
+       <Button
+           android:layout_marginStart="2dp"
+           android:background="#F1970D"
+           android:textColor="#FFF"
+           android:id="@+id/btn_cancle_ordering"
+           android:layout_weight="1"
+           android:text="hủy"
+           android:layout_width="0dp"
+           android:layout_height="match_parent"/>
+   </LinearLayout>
+</LinearLayout>

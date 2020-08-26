@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".staffActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textColor="#FFF"
+        android:background="#F1970D"
+        android:layout_weight="0.75"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="Thông tin nhân viên"
+         />
+
+    <ListView
+
+        android:id="@+id/lvStaff"
+        android:layout_weight="9"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <Button
+        android:textColor="#FFF"
+        android:layout_weight="0.75"
+        android:background="#F1970D"
+        android:text="Thêm nhân viên"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/btn_themnhanvien"
+        android:gravity="center"
+        android:layout_gravity="center" />
+
+
+</LinearLayout>

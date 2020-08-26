@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_weight="0.75"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:background="#F1970D"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Chi tiết Order"
+        android:gravity="center">
+    </TextView>
+
+    <ListView
+        android:layout_weight="9.75"
+        android:id="@+id/lv_Order_detail"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+</LinearLayout>

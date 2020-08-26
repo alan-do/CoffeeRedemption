@@ -1,0 +1,113 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.cot"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+8-->C:\Users\admin\Desktop\AlmostFinal\AlmostFinal\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->C:\Users\admin\Desktop\AlmostFinal\AlmostFinal\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\admin\Desktop\AlmostFinal\AlmostFinal\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\admin\Desktop\AlmostFinal\AlmostFinal\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->C:\Users\admin\Desktop\AlmostFinal\AlmostFinal\app\src\main\AndroidManifest.xml:6:5-80
+12-->C:\Users\admin\Desktop\AlmostFinal\AlmostFinal\app\src\main\AndroidManifest.xml:6:22-77
+13
+14    <application
+14-->C:\Users\admin\Desktop\AlmostFinal\AlmostFinal\app\src\main\AndroidManifest.xml:8:5-41:19
+15        android:allowBackup="true"
+15-->C:\Users\admin\Desktop\AlmostFinal\AlmostFinal\app\src\main\AndroidManifest.xml:10:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\7f6c41cc2a14c0fbaa8d0166c17dc544\core-1.1.0\AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:icon="@mipmap/ic_launcher"
+18-->C:\Users\admin\Desktop\AlmostFinal\AlmostFinal\app\src\main\AndroidManifest.xml:11:9-43
+19        android:label="@string/app_name"
+19-->C:\Users\admin\Desktop\AlmostFinal\AlmostFinal\app\src\main\AndroidManifest.xml:12:9-41
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->C:\Users\admin\Desktop\AlmostFinal\AlmostFinal\app\src\main\AndroidManifest.xml:13:9-54
+21        android:supportsRtl="true"
+21-->C:\Users\admin\Desktop\AlmostFinal\AlmostFinal\app\src\main\AndroidManifest.xml:14:9-35
+22        android:testOnly="true"
+23        android:theme="@style/AppTheme" >
+23-->C:\Users\admin\Desktop\AlmostFinal\AlmostFinal\app\src\main\AndroidManifest.xml:15:9-40
+24        <activity android:name="com.example.cot.ChonOrderActivity" />
+24-->C:\Users\admin\Desktop\AlmostFinal\AlmostFinal\app\src\main\AndroidManifest.xml:17:9-64
+24-->C:\Users\admin\Desktop\AlmostFinal\AlmostFinal\app\src\main\AndroidManifest.xml:17:19-52
+25        <activity android:name="com.example.cot.StatisticalActivity" />
+25-->C:\Users\admin\Desktop\AlmostFinal\AlmostFinal\app\src\main\AndroidManifest.xml:18:9-57
+25-->C:\Users\admin\Desktop\AlmostFinal\AlmostFinal\app\src\main\AndroidManifest.xml:18:19-54
+26        <activity android:name="com.example.cot.ProductDetailActivity" />
+26-->C:\Users\admin\Desktop\AlmostFinal\AlmostFinal\app\src\main\AndroidManifest.xml:19:9-59
+26-->C:\Users\admin\Desktop\AlmostFinal\AlmostFinal\app\src\main\AndroidManifest.xml:19:19-56
+27        <activity android:name="com.example.cot.LoadTableActivity" />
+27-->C:\Users\admin\Desktop\AlmostFinal\AlmostFinal\app\src\main\AndroidManifest.xml:20:9-55
+27-->C:\Users\admin\Desktop\AlmostFinal\AlmostFinal\app\src\main\AndroidManifest.xml:20:19-52
+28        <activity android:name="com.example.cot.CheckoutBagActivity" />
+28-->C:\Users\admin\Desktop\AlmostFinal\AlmostFinal\app\src\main\AndroidManifest.xml:21:9-57
+28-->C:\Users\admin\Desktop\AlmostFinal\AlmostFinal\app\src\main\AndroidManifest.xml:21:19-54
+29        <activity android:name="com.example.cot.StatisticActivity" />
+29-->C:\Users\admin\Desktop\AlmostFinal\AlmostFinal\app\src\main\AndroidManifest.xml:22:9-55
+29-->C:\Users\admin\Desktop\AlmostFinal\AlmostFinal\app\src\main\AndroidManifest.xml:22:19-52
+30        <activity android:name="com.example.cot.AddProductActivity" />
+30-->C:\Users\admin\Desktop\AlmostFinal\AlmostFinal\app\src\main\AndroidManifest.xml:23:9-56
+30-->C:\Users\admin\Desktop\AlmostFinal\AlmostFinal\app\src\main\AndroidManifest.xml:23:19-53
+31        <activity android:name="com.example.cot.UpdateProActivity" />
+31-->C:\Users\admin\Desktop\AlmostFinal\AlmostFinal\app\src\main\AndroidManifest.xml:24:9-55
+31-->C:\Users\admin\Desktop\AlmostFinal\AlmostFinal\app\src\main\AndroidManifest.xml:24:19-52
+32        <activity android:name="com.example.cot.UpdateTKActivity" />
+32-->C:\Users\admin\Desktop\AlmostFinal\AlmostFinal\app\src\main\AndroidManifest.xml:25:9-54
+32-->C:\Users\admin\Desktop\AlmostFinal\AlmostFinal\app\src\main\AndroidManifest.xml:25:19-51
+33        <activity android:name="com.example.cot.AddStaffActivity" />
+33-->C:\Users\admin\Desktop\AlmostFinal\AlmostFinal\app\src\main\AndroidManifest.xml:26:9-54
+33-->C:\Users\admin\Desktop\AlmostFinal\AlmostFinal\app\src\main\AndroidManifest.xml:26:19-51
+34        <activity android:name="com.example.cot.staffActivity" />
+34-->C:\Users\admin\Desktop\AlmostFinal\AlmostFinal\app\src\main\AndroidManifest.xml:27:9-51
+34-->C:\Users\admin\Desktop\AlmostFinal\AlmostFinal\app\src\main\AndroidManifest.xml:27:19-48
+35        <activity android:name="com.example.cot.OrderDetailActivity" />
+35-->C:\Users\admin\Desktop\AlmostFinal\AlmostFinal\app\src\main\AndroidManifest.xml:28:9-57
+35-->C:\Users\admin\Desktop\AlmostFinal\AlmostFinal\app\src\main\AndroidManifest.xml:28:19-54
+36        <activity android:name="com.example.cot.chondouongActivity" />
+36-->C:\Users\admin\Desktop\AlmostFinal\AlmostFinal\app\src\main\AndroidManifest.xml:29:9-56
+36-->C:\Users\admin\Desktop\AlmostFinal\AlmostFinal\app\src\main\AndroidManifest.xml:29:19-53
+37        <activity android:name="com.example.cot.OrderListActivity" />
+37-->C:\Users\admin\Desktop\AlmostFinal\AlmostFinal\app\src\main\AndroidManifest.xml:30:9-55
+37-->C:\Users\admin\Desktop\AlmostFinal\AlmostFinal\app\src\main\AndroidManifest.xml:30:19-52
+38        <activity
+38-->C:\Users\admin\Desktop\AlmostFinal\AlmostFinal\app\src\main\AndroidManifest.xml:31:9-74
+39            android:name="com.example.cot.HomeActivity"
+39-->C:\Users\admin\Desktop\AlmostFinal\AlmostFinal\app\src\main\AndroidManifest.xml:31:19-47
+40            android:noHistory="true" />
+40-->C:\Users\admin\Desktop\AlmostFinal\AlmostFinal\app\src\main\AndroidManifest.xml:31:48-72
+41        <activity android:name="com.example.cot.MainActivity" >
+41-->C:\Users\admin\Desktop\AlmostFinal\AlmostFinal\app\src\main\AndroidManifest.xml:34:9-40:20
+41-->C:\Users\admin\Desktop\AlmostFinal\AlmostFinal\app\src\main\AndroidManifest.xml:34:19-47
+42            <intent-filter>
+42-->C:\Users\admin\Desktop\AlmostFinal\AlmostFinal\app\src\main\AndroidManifest.xml:35:9-39:25
+43                <action android:name="android.intent.action.MAIN" />
+43-->C:\Users\admin\Desktop\AlmostFinal\AlmostFinal\app\src\main\AndroidManifest.xml:36:13-65
+43-->C:\Users\admin\Desktop\AlmostFinal\AlmostFinal\app\src\main\AndroidManifest.xml:36:21-62
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->C:\Users\admin\Desktop\AlmostFinal\AlmostFinal\app\src\main\AndroidManifest.xml:38:13-73
+45-->C:\Users\admin\Desktop\AlmostFinal\AlmostFinal\app\src\main\AndroidManifest.xml:38:23-70
+46            </intent-filter>
+47        </activity>
+48
+49        <provider
+49-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+50            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+50-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+51            android:authorities="com.example.cot.lifecycle-process"
+51-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+52            android:exported="false"
+52-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+53            android:multiprocess="true" />
+53-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+54    </application>
+55
+56</manifest>

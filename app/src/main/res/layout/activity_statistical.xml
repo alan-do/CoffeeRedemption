@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".StatisticalActivity"
+    android:layout_marginStart="5dp">
+    <TextView
+        android:id="@+id/tv_best_seller"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SP bán chạy nhất: "
+        android:textSize="15dp"
+        android:layout_marginBottom="20dp">
+    </TextView>
+    <TextView
+        android:id="@+id/tv_day_revenue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Doanh thu ngày: "
+        android:textSize="15dp"
+        android:layout_marginBottom="20dp">
+    </TextView>
+    <TextView
+        android:id="@+id/tv_number_of_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tổng số đơn hàng ngày: "
+        android:textSize="15dp"
+        android:layout_marginBottom="20dp">
+    </TextView>
+    <TextView
+        android:id="@+id/tv_month_revenue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Doanh thu tháng: "
+        android:textSize="15dp"
+        android:layout_marginBottom="20dp">
+    </TextView>
+    <TextView
+        android:id="@+id/tv_month_number_of_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tổng số đơn hàng tháng: "
+        android:textSize="15dp"
+        android:layout_marginBottom="20dp">
+    </TextView>
+
+</LinearLayout>

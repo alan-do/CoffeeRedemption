@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">COT</string>
+    <string-array name="listcoffee">
+        <item></item>
+        <item>Cà Phê Đá</item>
+        <item>Cà Phê Sữa</item>
+        <item>Cà Phê Chồn</item>
+        <item>Cà Phê Rum</item>
+        <item>Capuchino</item>
+        <item>Expresso</item>
+
+
+    </string-array>
+    <string-array name="listsinhto">
+        <item></item>
+        <item>Sinh Tố Ớt</item>
+        <item>Sinh Tố Tỏi</item>
+        <item>Sinh Tố Hành</item>
+        <item>Sinh Tố Pơ</item>
+        <item>Sinh Tố Dừa</item>
+
+
+        <item>Sinh Tố Mãng Cầu</item>
+
+    </string-array>
+    <string-array name="listsoluongcoffee">
+        <item></item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="listsoluongsinhto">
+        <item />
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+
+    </string-array>
+    <string-array name="listthuoc">
+        <item />
+        <item>555</item>
+        <item>Marboro</item>
+        <item>Caraven</item>
+        <item>JET</item>
+    </string-array>
+    <string-array name="listsoluongthuoc">
+        <item />
+        <item>1 gói</item>
+        <item>2 gói</item>
+        <item>3 gói</item>
+        <item>4 gói</item>
+    </string-array>
+    <string-array name="listkhac">
+        <item />
+        <item>Nước Suối</item>
+
+        <item>La Hán Quả</item>
+        <item>Lipton Đá</item>
+        <item>Lipton Nóng</item>
+        <item>Trái Cây Đĩa</item>
+    </string-array>
+    <string-array name="listsoluongkhac">
+        <item />
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="listnuocep">
+        <item />
+        <item>Đá Chanh</item>
+        <item>Cam Vắt</item>
+        <item>Chanh Dây</item>
+        <item>Rau Má</item>
+        <item>Đá Me</item>
+    </string-array>
+    <string-array name="listsoluongnuocep">
+        <item />
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="listnuocngot">
+        <item />
+        <item>CoCa Cola</item>
+
+        <item>PepSi</item>
+        <item>Sting</item>
+        <item>Xá Xị</item>
+        <item>Twister</item>
+    </string-array>
+    <string-array name="listsoluongnuocngot">
+        <item />
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+
+    </string-array>
+    <string name="title_activity_staffs">staffsActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+
+</resources>

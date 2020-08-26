@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddStaffActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TextView
+            android:padding="5dp"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:background="#F1970D"
+            android:textColor="#FFF"
+            android:id="@+id/tv_add_staff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thêm nhân viên"
+            android:textSize="32dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Họ tên nhân viên"
+    android:textStyle="bold"
+    android:textSize="24dp"></TextView>
+        <EditText
+            android:id="@+id/et_hotendangnhap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:ems="10"
+            android:hint="Họ tên"
+            android:inputType="text"
+             />
+        <TextView
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lương"
+            android:textStyle="bold"
+            android:textSize="24dp"></TextView>
+        <EditText
+            android:id="@+id/et_luong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:ems="10"
+            android:hint="Lương"
+            android:inputType="number" />
+        <TextView
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vị trí"
+            android:textStyle="bold"
+            android:textSize="24dp"></TextView>
+        <EditText
+            android:id="@+id/et_vitridangnhap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Vị trí"
+            android:inputType="textPersonName" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tên tài khoản"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold"
+            android:textSize="24dp"></TextView>
+        <EditText
+            android:id="@+id/et_taikhoandangnhap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:ems="10"
+            android:hint="Tên tài khoản"
+            android:inputType="textPersonName" />
+        <TextView
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mật khẩu"
+            android:textStyle="bold"
+            android:textSize="24dp"></TextView>
+        <EditText
+            android:id="@+id/et_matkhaudangnhap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:ems="10"
+            android:hint="Mật khẩu"
+            android:inputType="textPassword" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_huythem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="6dp"
+                android:layout_weight="1"
+                android:text="Trờ về" />
+
+            <Button
+                android:id="@+id/btn_dongythem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_weight="1"
+                android:text="Đồng ý" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
